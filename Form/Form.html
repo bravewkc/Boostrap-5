@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Atrakcje Turystyczne</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap-5.0.2-dist\css\bootstrap.min.css" rel="stylesheet">
+  <script src="bootsImie.innerHTML.innerHTML-5.0.2-dist\js\bootstrap.min.js"></script>
+  <script src="Wiek.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-fluid btn btn-info">
+            <h1>Formularz</h1>
+    </header>
+    <form action="" method="post">
+
+        <div class="mb-3 mt-3">
+          <label>Imie: </label>
+          <input type="text" class="form-control" id="name">
+        </div>
+
+        <div class="mb-3">
+          <label>Nazwisko: </label>
+          <input type="text" class="form-control" id="lastname">
+        </div>
+
+          <div class="mb-3">
+            <label>Email: </label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          
+          <div class="mb-3">
+<label for="age" class="form-label">Wiek:</label>
+<input type="range" class="form-range" oninput="showInput(this);" id="age"  min="13" max="60">
+    <b class="showRange"> </b>
+          </div>
+
+          <div class="mb-3">
+            <input type="radio" id="Kobieta" value="HTML">
+            <label>Kobieta</label>
+          </div>
+
+          <div class="mb-3">
+            <input type="radio" id="Mężczyzna" value="HTML">
+            <label>Mężczyzna</label>
+          </div>
+          
+          <div class="mb-3">
+            <label>Liczba lat Stażu</label>
+            <input type="number" class="form-control" id="Staz" min="0" max="75">
+          </div>
+
+        <button type="submit" class="btn btn-primary" onclick="Wyswietl()">Wypisz</button>
+      </form>
+          <div class="container-fluid bg-success text-white text-center">
+            <h1>Zapoznaj się z regulaminem</h1>
+        </footer>
+</body>
+</html>
